@@ -9,7 +9,8 @@ Team: Afolarin Faluyi
 Community Partner: Huntsville Regional Health & Donor Center
 
 Project Overview
-This project leverages Python-based data analytics to solve critical donor retention and inventory challenges for a local healthcare partner. By analyzing historical donor logs and daily inventory levels, we provide actionable insights to prevent blood shortages and improve engagement within the Huntsville community.
+This project leverages Python-based data analytics to solve critical donor retention and inventory challenges for a local healthcare partner.
+By analyzing historical donor logs and daily inventory levels, we provide actionable insights to prevent blood shortages and improve engagement within the Huntsville community.
 
 Key Objectives
 De-identify and Analyze: Clean donor data while maintaining strict HIPAA-standard privacy.
@@ -20,6 +21,7 @@ Inventory Optimization: Visualize supply trends to identify critical shortages i
 
 Repository Structure
 To ensure reproducibility, this repository follows a modular directory structure:
+
 
 Plaintext
 ├── data/
@@ -48,16 +50,24 @@ Clone this repository:
 
 Bash
 git clone https://github.com/your-username/huntsville-blood-analytics.git
+
+
 Navigate to the directory:
 
 Bash
+
 cd huntsville-blood-analytics
+
 Install dependencies:
 
 Bash
+
 pip install -r requirements.txt
+
 Usage
-Open the ACE_Final_Analysis.ipynb in Jupyter Notebook or VS Code and run all cells. The script will automatically:
+Open the ACE_Final_Analysis.ipynb in Jupyter Notebook or VS Code and run all cells. 
+
+The script will automatically:
 
 Load datasets from the data/ folder.
 
@@ -66,4 +76,7 @@ Calculate donor recency and "At-Risk" status.
 Export high-resolution plots to the visuals/ directory.
 
 Data Ethics & Privacy
-In accordance with course guidelines (Section 8.2), this project utilizes de-identified data. All Personally Identifiable Information (PII) such as names, phone numbers, and addresses have been removed. Data is handled through unique alphanumeric donor_ids to ensure anonymity.
+
+In accordance with course guidelines (Section 8.2), this project utilizes de-identified data.
+All Personally Identifiable Information (PII) such as names, phone numbers, and addresses have been removed.
+Data is handled through unique alphanumeric donor_ids to ensure anonymity.
